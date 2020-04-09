@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:stage": "vue-cli-service build --mode stage",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -25,9 +26,11 @@
     "@vue/cli-service": "~4.2.0",
     "@vue/eslint-config-airbnb": "^5.0.2",
     "babel-eslint": "^10.0.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-vue": "^6.1.2",
+    "image-webpack-loader": "^6.0.0",
     "lint-staged": "^9.5.0",
     "postcss-px-to-viewport": "^1.1.1",
     "pug": "^2.0.4",
