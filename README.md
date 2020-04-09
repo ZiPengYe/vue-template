@@ -1,24 +1,9 @@
-# vue-template
+# vue模板
 
-## Project setup
-```
-npm install
-```
+用于快速启动项目
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 功能
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 使用 `image-webpack-loader` 压缩图片.
+2. 使用 `postcss-px-to-viewport` 将 px转vw 以还原设计稿, 适配移动端.
+3. 使用 `babel-plugin-transform-remove-console` 移除 线上 `console` 代码.
